@@ -1,0 +1,35 @@
+{
+  "monti": {
+    "appId": "82g2wHrbgXxrbfj68",
+    "appSecret": "87982a97-5beb-4c94-9820-ea9208bfa905"
+  },
+
+  "defaultAccounts": [
+    { "email": "admin@foo.com", "password": "changeme", "role": "admin" },
+    { "email": "vantajc@hawaii.edu", "password": "changeme", "role": "admin" },
+    { "email": "john@foo.com", "password": "changeme" }
+  ],
+  "defaultProfiles": [{
+    "firstName": "Philip", "lastName": "Johnson", "studentId": 12345678, "email": "john@foo.com", "phone": 80812345678, "position": "Student",
+    "image": "https://github.com/philipmjohnson.png",
+    "description": "I am a Professor of Information and Computer Sciences at the University of Hawaii, Director of the Collaborative Software Development Laboratory, and the CEO of OpenPowerQuality.com.",
+    "owner": "john@foo.com"
+  },
+    {
+      "firstName": "Admin", "lastName": "1", "studentId": 1010101, "email": "admin@foo.com", "phone": 10101010, "position": "Student",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQil_A9l5arpAJ3-RB-l69EeKO-YjtOjZKxgQ&usqp=CAU",
+      "description": "Admin account.",
+      "owner": "admin@foo.com"
+    },
+    {
+      "firstName": "Joel", "lastName": "Vanta", "studentId": 1010101, "email": "vantajc@hawaii.edu", "phone": 10101010, "position": "Student",
+      "image": "https://assets.skool.com/f/d0f3e1ce75b24aee9d22f1c925f2c78b/805074bdb23d4a1eb7395d768f8989df6ac30e5f48bb4f0a96dacf90b67e3569",
+      "description": "Admin account.",
+      "owner": "vantajc@hawaii.edu"
+    }
+  ],
+
+  "defaultData": [
+    { "name": "Item1", "quantity": 1, "price": 100,"image": "https://m.media-amazon.com/images/I/21gWb-fkviL.__AC_SX300_SY300_QL70_FMwebp_.jpg","condition": "Good", "category": "Books", "description": "Description","owner": "john@foo.com" }
+  ]
+}
